@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.register{
+    width: 1200px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    /* padding-top: 200px; */
+}
+
+.income{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.expense{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 175px;
+    grid-gap: 10px;
+}
